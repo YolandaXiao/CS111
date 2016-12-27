@@ -1,0 +1,18 @@
+1.lab0.c
+	Used getopt_long to parse the input arguments. Used switch statment to deal with each argument.
+	
+2.Makefile
+	For make check, divided into 5 cases in total. Tested individual cases for input, output, segmentation fault and catch the segmentation fault.
+	
+3.Breakpoint.png
+	The screenshot shows the details of where the segmentation fault happens.
+	
+4.Backtrace.png
+	The screenshot shows the details of the pointer by using the commands backtrace and backtrace full. 
+
+5.Testing methodology
+	  1)The cases when output and input files differs, exit status 0 recieves.
+	  2)The case when input file doesnt exist, exit status is 1.
+	  3)The case when output file is not writable, exit status is 2.
+	  4)The case when segmentation fault happens. Extract the 'Segmentation fault' message and compare it to test.
+	  5)The case when segmentation fault happens and the handler catches it. Check exit status and the output messsage if it's the same as expected.
