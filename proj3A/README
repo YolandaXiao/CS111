@@ -1,0 +1,12 @@
+CS111 Project3a
+UID 904581627
+
+Files
+Makefile
+Builds lab3a.c into executable, cleans the directory and create the tarball.
+
+lab3a.c
+This is the code for project 3a. The program explores the disk organization and directory structure for the second extended file system. There are six parts: superblock, group descriptors, free bitmaps, inodes, directory entry and indirect directory entry. We code to calculate the values in order to understand a given file system.
+
+Testing Methodology
+Check and compared with the given csv output.
