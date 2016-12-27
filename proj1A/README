@@ -1,0 +1,21 @@
+Included files
+
+lab1a.c:
+	This is the code for project lab1a. The first part of the program deals with non-canonical output. The program outputs keyboard input one at a time. The second part of the program involves forking process and multi-threading. When given the argument --shell, the program can output shell command results. 
+
+Makefile:
+	Builds lab1a, clean the directory, and makes the tarball.
+
+
+Testing methodology
+
+	For the first part, we type characters in and see if they are displayed one at a time accordingly. We also test by control-d and control-c to see if the program exits correctly.
+	For the second part, we tested it by inputting shell commands like "ls" and "pwd" and see if the output is as expected. We also test it typing control-c and control-d to see if it exits with the correct signal number.
+
+
+Sources
+
+https://www.gnu.org/software/libc/manual/html_node/Noncanon-Example.html#Noncanon-Example
+
+Uses this as reference for non-canonical input.
+	
