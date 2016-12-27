@@ -1,0 +1,15 @@
+CS111 Fall16 Lab3b
+UID 904581627
+
+Included Files
+lab3b.py
+	The code for this project that checks error from the six csv files. We use python for this project. We first read in the csv files, and store information into data structures. We then check if the values we want are consistent. We store the incorrect values in data sturctures and output them in different categories specified in the spec.
+	
+Makefile
+	We include the command to execute the program, clean the directory and create the tarball
+
+README
+	Includes description of the included files and the related commands
+
+Commands
+	We use the command "python lab3b.py" to execute the program 
